@@ -61,21 +61,13 @@
             if ([[UIScreen mainScreen] bounds].size.width == 736.0)
             {
                 
-                self.scaleX=0.5;
-                self.scaleY=0.5;
-                self.anchorPoint=CGPointMake(0,0);                }
+            }
             else if ([[UIScreen mainScreen] bounds].size.width == 667.0)
             {
                 
-                self.scaleX=0.5;
-                self.scaleY=0.5;
-                self.anchorPoint=CGPointMake(0,0);                }
+            }
             else if ([[UIScreen mainScreen] bounds].size.width == 568)
             {
-                
-                self.scaleX=0.555;
-                self.scaleY=0.416;
-                self.anchorPoint=CGPointMake(0, 0);
                 
             }
             
